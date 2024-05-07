@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.div1{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.first,.last{
+    padding: 20px;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.last{
+    padding-top: 47.5px;
+}
+.first label{
+    font-size: large;
+    font-weight: bolder;
+}
+.first label span{
+   color: red;
+}
+.first input,.last input{
+    width: 250px;
+    height: 30px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.div2 input{
+    height: 30px;
+    width: 540px;
+}
+.div2 label{
+    font-weight: bolder;
+}
+.div2 span{
+    color: red;
+}
+.div3{
+    padding-top: 30px;
+    padding-left: 50px
+}
+.div3 .star{
+    padding-top: 10px;
+}
+.div3 label{
+    font-weight: bolder;
+}
+.div3 label span{
+    color: red;
+}
+.div3 p{
+    padding-top: 5px;
+}
+.div4{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.div4 label{
+    font-weight: bolder;
+}
+.div4 label span{
+    color: red;
+}
+/* .div4 table{
+    padding-top: 10px;
+    width: 650px;
+}
+.div4 table tr td{
+    margin: 20px;
+    text-align: center;
+} */
+tr .f{
+    text-align: start;
+    font-weight: 400;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 53px;
+}
+.div5 button{
+    width: 90px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: none;
+    border-color: rgb(60, 51, 40);
+    background-color: rgb(210, 203, 194);
+}
+.div5 p{
+    font-weight: bolder;
+}
+.div5 textarea{
+    padding: 20px;
+}
